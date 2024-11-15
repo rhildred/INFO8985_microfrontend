@@ -12,6 +12,8 @@ PAYPAL_CLIENT_ID=<from developer account>
 PAYPAL_CLIENT_SECRET=<from developer account>
 ```
 
+When you have the .env file correct, you can start the app and surf to the provided url and see the markdown file with the code in it.
+
 ```bash
 pip install -r requirements.txt
 fastapi dev app.py
