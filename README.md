@@ -3,6 +3,15 @@
 
 TLDR;
 
+1. Sign up for a paypal developer account
+2. Create a sandbox app and get your client id and client secret
+3. Put client id and client secret in a .env file in the same folder as the README.md file
+
+```
+PAYPAL_CLIENT_ID=<from developer account>
+PAYPAL_CLIENT_SECRET=<from developer account>
+```
+
 ```bash
 pip install -r requirements.txt
 fastapi dev app.py
